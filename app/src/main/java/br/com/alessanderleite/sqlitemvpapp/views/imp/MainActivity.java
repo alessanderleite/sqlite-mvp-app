@@ -1,7 +1,9 @@
-package br.com.alessanderleite.sqlitemvpapp;
+package br.com.alessanderleite.sqlitemvpapp.views.imp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import br.com.alessanderleite.sqlitemvpapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

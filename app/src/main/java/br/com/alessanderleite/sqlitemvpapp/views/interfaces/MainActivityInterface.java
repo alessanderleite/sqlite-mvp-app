@@ -6,11 +6,9 @@ import br.com.alessanderleite.sqlitemvpapp.models.Person;
 
 public interface MainActivityInterface {
 
-    void errorData(String exception);
+    void addPersonSuccess();
 
-    String[] getNamePerson();
+    void showValidationError(String info);
 
-    ArrayList<Person> getListPerson();
-
-    void setListPerson();
+    void addPersonError(String info);
 }

@@ -8,7 +8,7 @@ public interface ListViewActivityInterface {
 
     void errorData(String exception);
 
-    String[] getnamePerson();
+    String[] getNamePerson();
 
     ArrayList<Person> getListPerson();
 
